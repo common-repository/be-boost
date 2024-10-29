@@ -1,0 +1,17 @@
+/*
+ * @since             1.0.0
+ * @package           born for share lite
+ * @main style of born for share lite
+ *
+*/
+
+.be-boost-share.beproduct-share {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 0;
+}
+
+.be-boost-share.beproduct-share a {
+    font-size: 16px;
+    margin-right: 5px;
+}

@@ -1,0 +1,46 @@
+.ocdi__gl-item.js-ocdi-gl-item[data-name="shop pro demo one"] button.ocdi__gl-item-button,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="shop pro demo two"] button.ocdi__gl-item-button,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="blog pro demo one"] button.ocdi__gl-item-button,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="blog pro demo two"] button.ocdi__gl-item-button {
+    display: none;
+}
+
+.ocdi__gl-item.js-ocdi-gl-item[data-name="blog pro demo one"] ,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="blog pro demo two"] ,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="shop pro demo one"] ,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="shop pro demo two"] {
+    position: relative;
+    overflow: hidden;
+}
+
+.ocdi__gl-item.js-ocdi-gl-item[data-name="blog pro demo one"]:after,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="blog pro demo two"]:after,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="shop pro demo one"]:after,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="shop pro demo two"]:after {
+    position: absolute;
+    top: 30px;
+    right: -34px;
+    width: auto;
+    height: auto;
+    content: "Pro Only";
+    background: forestgreen;
+    padding: 5px 20px;
+    transform: rotate(45deg);
+    min-width: 120px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.be-boost-probtn a.button {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.ocdi__gl-item.js-ocdi-gl-item[data-name="blog pro demo one"] a.ocdi__gl-item-button.button.button-primary,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="blog pro demo two"] a.ocdi__gl-item-button.button.button-primary,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="shop pro demo one"] a.ocdi__gl-item-button.button.button-primary,
+.ocdi__gl-item.js-ocdi-gl-item[data-name="shop pro demo two"] a.ocdi__gl-item-button.button.button-primary {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    display: none !important
+}
